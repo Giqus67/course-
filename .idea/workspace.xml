@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="added basic inherit classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task2/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task2/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task2/Triangle.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="completed task2, to find square of shapes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task3/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task3/EngineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task3/SeasonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task3/TireType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task3/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task1/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task1/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task1/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -47,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Animal.executor": "Run",
+    "Application.Shape.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -59,6 +59,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task3.Car" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ddanylenko.module4.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Car" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757513869870</updated>
-      <workItem from="1757513872131" duration="1499000" />
+      <workItem from="1757513872131" duration="2468000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -93,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757514824910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed task2, to find square of shapes">
+      <option name="closed" value="true" />
+      <created>1757515561758</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757515561758</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="added basic inherit classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added basic inherit classes" />
+    <MESSAGE value="completed task2, to find square of shapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed task2, to find square of shapes" />
   </component>
 </project>
