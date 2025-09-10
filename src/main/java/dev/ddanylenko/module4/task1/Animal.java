@@ -1,6 +1,5 @@
-package dev.ddanylenko.module4;
+package dev.ddanylenko.module4.task1;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Animal {

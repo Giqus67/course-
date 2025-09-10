@@ -1,4 +1,4 @@
-package dev.ddanylenko.module4;
+package dev.ddanylenko.module4.task1;
 
 public class Dog extends Animal {
     @Override
