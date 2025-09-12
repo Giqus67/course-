@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task3 varargs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task4/List.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task4 arrayList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task5/Linked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
     "Application.Car.executor": "Run",
     "Application.Employee.executor": "Run",
     "Application.Library.executor": "Run",
+    "Application.Linked.executor": "Run",
     "Application.List.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiDim.executor": "Run",
@@ -67,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.List">
+  <component name="RunManager" selected="Application.Linked">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task1.Array" />
       <module name="course" />
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task4.List" />
+    <configuration name="Linked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task5.Linked" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task4.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task8.Main" />
+    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task4.List" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module4.task8.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Linked" />
         <item itemvalue="Application.List" />
         <item itemvalue="Application.varArgs" />
         <item itemvalue="Application.MultiDim" />
         <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757513869870</updated>
       <workItem from="1757513872131" duration="6679000" />
-      <workItem from="1757662920588" duration="6540000" />
+      <workItem from="1757662920588" duration="7279000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -258,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757690340048</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task4 arrayList">
+      <option name="closed" value="true" />
+      <created>1757691072840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757691072840</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +309,7 @@
     <MESSAGE value="task1 work with array, sorting, finding min/max, reverse" />
     <MESSAGE value="task2 multidims" />
     <MESSAGE value="task3 varargs" />
-    <option name="LAST_COMMIT_MESSAGE" value="task3 varargs" />
+    <MESSAGE value="task4 arrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4 arrayList" />
   </component>
 </project>
