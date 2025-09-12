@@ -1,6 +1,5 @@
 package dev.ddanylenko.module4.task8;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {

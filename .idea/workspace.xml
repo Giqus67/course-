@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task7 basic playable interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task8/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task8/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task8/Shape3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module4/task8/Sphere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task7 Comparable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task7/BookComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task7/Comp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task7/Comp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +30,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="32VlxZNnvwa2gsahyn22I1zw2Wb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,13 +44,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Animal.executor": "Run",
+    "Application.Array.executor": "Run",
     "Application.Car.executor": "Run",
+    "Application.Comp.executor": "Run",
     "Application.Employee.executor": "Run",
     "Application.Library.executor": "Run",
+    "Application.Linked.executor": "Run",
+    "Application.List.executor": "Run",
+    "Application.Listed.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MultiDim.executor": "Run",
     "Application.MusicPlayer.executor": "Run",
     "Application.Payment.executor": "Run",
     "Application.Shape.executor": "Run",
+    "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -67,13 +70,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task6.Employee" />
+  <component name="RunManager" selected="Application.Comp">
+    <configuration name="Comp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task7.Comp" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module4.task6.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task4.Library" />
+    <configuration name="Linked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task5.Linked" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module4.task4.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task8.Main" />
+    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task4.List" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module4.task8.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task7.MusicPlayer" />
+    <configuration name="Listed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task6.Listed" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module4.task7.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Payment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module4.task5.Payment" />
+    <configuration name="varArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task3.varArgs" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module4.task5.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MusicPlayer" />
-        <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.Payment" />
-        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.Comp" />
+        <item itemvalue="Application.Listed" />
+        <item itemvalue="Application.Linked" />
+        <item itemvalue="Application.List" />
+        <item itemvalue="Application.varArgs" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +162,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757513869870</updated>
-      <workItem from="1757513872131" duration="6335000" />
+      <workItem from="1757513872131" duration="6679000" />
+      <workItem from="1757662920588" duration="9176000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -225,7 +229,71 @@
       <option name="project" value="LOCAL" />
       <updated>1757519455954</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="task8 interface with methods getSurfaceArea, getVolume">
+      <option name="closed" value="true" />
+      <created>1757520391877</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757520391877</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task1 work with array, sorting, finding min/max, reverse">
+      <option name="closed" value="true" />
+      <created>1757664673838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757664673838</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task2 multidims">
+      <option name="closed" value="true" />
+      <created>1757684457406</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757684457406</updated>
+    </task>
+    <task id="LOCAL-00012" summary="task3 varargs">
+      <option name="closed" value="true" />
+      <created>1757690340048</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757690340048</updated>
+    </task>
+    <task id="LOCAL-00013" summary="task4 arrayList">
+      <option name="closed" value="true" />
+      <created>1757691072840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757691072840</updated>
+    </task>
+    <task id="LOCAL-00014" summary="task5 LinkedList">
+      <option name="closed" value="true" />
+      <created>1757691945090</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757691945090</updated>
+    </task>
+    <task id="LOCAL-00015" summary="task6 Collections sort, shuffle">
+      <option name="closed" value="true" />
+      <created>1757692184198</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757692184198</updated>
+    </task>
+    <task id="LOCAL-00016" summary="task7 Comparable">
+      <option name="closed" value="true" />
+      <created>1757697974620</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757697974620</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +304,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -251,6 +331,14 @@
     <MESSAGE value="task5 polymorphism of payment" />
     <MESSAGE value="task6 abstract classes + polymorphism on employee" />
     <MESSAGE value="task7 basic playable interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="task7 basic playable interface" />
+    <MESSAGE value="task8 interface with methods getSurfaceArea, getVolume" />
+    <MESSAGE value="task1 work with array, sorting, finding min/max, reverse" />
+    <MESSAGE value="task2 multidims" />
+    <MESSAGE value="task3 varargs" />
+    <MESSAGE value="task4 arrayList" />
+    <MESSAGE value="task5 LinkedList" />
+    <MESSAGE value="task6 Collections sort, shuffle" />
+    <MESSAGE value="task7 Comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="task7 Comparable" />
   </component>
 </project>
