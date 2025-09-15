@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task7 Comparable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task7/BookComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task7/Comp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task7/Comp.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task10 Set, TreeSet, HashSet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +45,7 @@
   "keyToString": {
     "Application.Animal.executor": "Run",
     "Application.Array.executor": "Run",
+    "Application.Bank.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.Comp.executor": "Run",
     "Application.Employee.executor": "Run",
@@ -57,6 +58,9 @@
     "Application.MusicPlayer.executor": "Run",
     "Application.Payment.executor": "Run",
     "Application.Shape.executor": "Run",
+    "Application.Stacked.executor": "Run",
+    "Application.dev.ddanylenko.module5.task10.Main.executor": "Run",
+    "Application.dev.ddanylenko.module5.task11.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,10 +71,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Comp">
+  <component name="RunManager" selected="Application.dev.ddanylenko.module5.task11.Main">
     <configuration name="Comp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task7.Comp" />
       <module name="course" />
@@ -84,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Linked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task5.Linked" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task9.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task5.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task4.List" />
+    <configuration name="Stacked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task8.Stacked" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task4.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task6.Listed" />
+    <configuration name="dev.ddanylenko.module5.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task10.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task6.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="varArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task3.varArgs" />
+    <configuration name="dev.ddanylenko.module5.task11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task11.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task3.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module5.task11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.module5.task11.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module5.task10.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Stacked" />
         <item itemvalue="Application.Comp" />
-        <item itemvalue="Application.Listed" />
-        <item itemvalue="Application.Linked" />
-        <item itemvalue="Application.List" />
-        <item itemvalue="Application.varArgs" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +170,10 @@
       <option name="presentableId" value="Default" />
       <updated>1757513869870</updated>
       <workItem from="1757513872131" duration="6679000" />
-      <workItem from="1757662920588" duration="9176000" />
+      <workItem from="1757662920588" duration="9641000" />
+      <workItem from="1757753790284" duration="6058000" />
+      <workItem from="1757834570549" duration="6976000" />
+      <workItem from="1757920027154" duration="3797000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -293,7 +303,39 @@
       <option name="project" value="LOCAL" />
       <updated>1757697974620</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="task7 Comparable and Comparator">
+      <option name="closed" value="true" />
+      <created>1757698264734</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757698264734</updated>
+    </task>
+    <task id="LOCAL-00018" summary="task8 Stack">
+      <option name="closed" value="true" />
+      <created>1757837352455</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757837352455</updated>
+    </task>
+    <task id="LOCAL-00019" summary="task9 Queue, PriorityQueue, Deque">
+      <option name="closed" value="true" />
+      <created>1757842711625</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757842711625</updated>
+    </task>
+    <task id="LOCAL-00020" summary="task10 Set, TreeSet, HashSet">
+      <option name="closed" value="true" />
+      <created>1757921899501</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1757921899501</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +352,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="collections" />
                       </list>
                     </value>
                   </entry>
@@ -339,6 +381,10 @@
     <MESSAGE value="task5 LinkedList" />
     <MESSAGE value="task6 Collections sort, shuffle" />
     <MESSAGE value="task7 Comparable" />
-    <option name="LAST_COMMIT_MESSAGE" value="task7 Comparable" />
+    <MESSAGE value="task7 Comparable and Comparator" />
+    <MESSAGE value="task8 Stack" />
+    <MESSAGE value="task9 Queue, PriorityQueue, Deque" />
+    <MESSAGE value="task10 Set, TreeSet, HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="task10 Set, TreeSet, HashSet" />
   </component>
 </project>
