@@ -1,6 +1,8 @@
 package dev.ddanylenko.module6.task1;
 
-public class SubjectGrade {
+import java.io.Serializable;
+
+public class SubjectGrade implements Serializable {
     private double grade;
     private String subjectName;
 

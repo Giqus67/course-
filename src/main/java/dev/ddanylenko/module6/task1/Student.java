@@ -1,9 +1,10 @@
 package dev.ddanylenko.module6.task1;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Student {
+public class Student implements Serializable {
     private String name;
     private double avgGrade;
     private List<SubjectGrade> subjectGrades;
