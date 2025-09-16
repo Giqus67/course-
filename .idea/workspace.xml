@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task10 Set, TreeSet, HashSet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module5/task11/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task11 Map, TreeMap, HashMap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/FileW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/SubjectGrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="collections" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +51,7 @@
     "Application.Car.executor": "Run",
     "Application.Comp.executor": "Run",
     "Application.Employee.executor": "Run",
+    "Application.FileW.executor": "Run",
     "Application.Library.executor": "Run",
     "Application.Linked.executor": "Run",
     "Application.List.executor": "Run",
@@ -66,6 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/deadt/Downloads/poker3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,13 +81,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module5.task11.Main">
-    <configuration name="Comp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task7.Comp" />
+  <component name="RunManager" selected="Application.FileW">
+    <configuration name="FileW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task1.FileW" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task7.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module6.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileW" />
         <item itemvalue="Application.dev.ddanylenko.module5.task11.Main" />
         <item itemvalue="Application.dev.ddanylenko.module5.task10.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Stacked" />
-        <item itemvalue="Application.Comp" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +178,7 @@
       <workItem from="1757753790284" duration="6058000" />
       <workItem from="1757834570549" duration="6976000" />
       <workItem from="1757920027154" duration="3797000" />
+      <workItem from="1758032054942" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
