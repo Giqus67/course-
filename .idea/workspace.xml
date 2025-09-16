@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task2 try-with-resources, class file, Exception handling">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task3/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task3 ObjectOutputStream/ObjectInputStream/Serializable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/SubjectGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task1/SubjectGrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module6.task3.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FileW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task1.FileW" />
       <module name="course" />
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module5.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module5.task10.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task4.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module5.task10.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module6.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.dev.ddanylenko.module6.task3.Main" />
         <item itemvalue="Application.dev.ddanylenko.module6.task2.Main" />
         <item itemvalue="Application.FileW" />
         <item itemvalue="Application.dev.ddanylenko.module5.task11.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module5.task10.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,7 @@
       <workItem from="1757753790284" duration="6058000" />
       <workItem from="1757834570549" duration="6976000" />
       <workItem from="1757920027154" duration="3797000" />
-      <workItem from="1758032054942" duration="3908000" />
+      <workItem from="1758032054942" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -358,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758034997955</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="task3 ObjectOutputStream/ObjectInputStream/Serializable">
+      <option name="closed" value="true" />
+      <created>1758036026877</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758036026877</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +416,7 @@
     <MESSAGE value="task10 Set, TreeSet, HashSet" />
     <MESSAGE value="task1 FileReader/FileWriter/BufferReader" />
     <MESSAGE value="task2 try-with-resources, class file, Exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="task2 try-with-resources, class file, Exception handling" />
+    <MESSAGE value="task3 ObjectOutputStream/ObjectInputStream/Serializable" />
+    <option name="LAST_COMMIT_MESSAGE" value="task3 ObjectOutputStream/ObjectInputStream/Serializable" />
   </component>
 </project>
