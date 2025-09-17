@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task6 channel">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module6/task7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/123.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/b/abc.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/b/c/test5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/b/test3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/b/test4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/a/test2.txt" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task7 FileVisitor/SimpleFileVisitor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module7/task1/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module7/task1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +69,7 @@
     "Application.dev.ddanylenko.module6.task5.Main.executor": "Run",
     "Application.dev.ddanylenko.module6.task6.Main.executor": "Run",
     "Application.dev.ddanylenko.module6.task7.Main.executor": "Run",
+    "Application.dev.ddanylenko.module7.task1.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -98,26 +93,13 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module6.task7.Main">
+  <component name="RunManager" selected="Application.dev.ddanylenko.module7.task1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task4.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.ddanylenko.module6.task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dev.ddanylenko.module6.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task3.Main" />
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module6.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.ddanylenko.module7.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module7.task1.Main" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ddanylenko.module7.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.module7.task1.Main" />
         <item itemvalue="Application.dev.ddanylenko.module6.task7.Main" />
         <item itemvalue="Application.dev.ddanylenko.module6.task6.Main" />
         <item itemvalue="Application.dev.ddanylenko.module6.task5.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module6.task3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +190,8 @@
       <workItem from="1757753790284" duration="6058000" />
       <workItem from="1757834570549" duration="6976000" />
       <workItem from="1757920027154" duration="3797000" />
-      <workItem from="1758032054942" duration="7514000" />
+      <workItem from="1758032054942" duration="7685000" />
+      <workItem from="1758133270822" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -405,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758041512517</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="task7 FileVisitor/SimpleFileVisitor">
+      <option name="closed" value="true" />
+      <created>1758042304041</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758042304041</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added basic inherit classes" />
     <MESSAGE value="completed task2, to find square of shapes" />
     <MESSAGE value="task3 composition" />
     <MESSAGE value="task4 library composition" />
@@ -460,6 +463,7 @@
     <MESSAGE value="task4 Java IO" />
     <MESSAGE value="task5 Java NIO" />
     <MESSAGE value="task6 channel" />
-    <option name="LAST_COMMIT_MESSAGE" value="task6 channel" />
+    <MESSAGE value="task7 FileVisitor/SimpleFileVisitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="task7 FileVisitor/SimpleFileVisitor" />
   </component>
 </project>
