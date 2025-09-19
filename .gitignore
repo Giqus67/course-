@@ -36,3 +36,11 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/hello_world.txt
+/notes.txt
+/students.txt
+/backup/a/test1.txt
+/backup/a/test2.txt
+/backup/a/b/test3.txt
+/backup/a/b/test4.txt
+/backup/a/b/c/test5.txt
