@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task 2 Generics inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module7/task3/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task6 interfaces Predicate, Function, Consumer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module8/task7/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="collections" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +71,12 @@
     "Application.dev.ddanylenko.module7.task1.Main.executor": "Run",
     "Application.dev.ddanylenko.module7.task2.Main.executor": "Run",
     "Application.dev.ddanylenko.module7.task3.Main.executor": "Run",
+    "Application.dev.ddanylenko.module8.task1.Main.executor": "Run",
+    "Application.dev.ddanylenko.module8.task3.Main.executor": "Run",
+    "Application.dev.ddanylenko.module8.task4.Main.executor": "Run",
+    "Application.dev.ddanylenko.module8.task5.Main.executor": "Run",
+    "Application.dev.ddanylenko.module8.task6.Main.executor": "Run",
+    "Application.dev.ddanylenko.module8.task7.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -94,13 +100,13 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module7.task3.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module7.task2.Main" />
+  <component name="RunManager" selected="Application.dev.ddanylenko.module8.task7.Main">
+    <configuration name="dev.ddanylenko.module8.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task3.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module7.task2.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module8.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module6.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task6.Main" />
+    <configuration name="dev.ddanylenko.module8.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task4.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module6.task6.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module8.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module6.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module6.task7.Main" />
+    <configuration name="dev.ddanylenko.module8.task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task5.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module6.task7.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module8.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module7.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module7.task1.Main" />
+    <configuration name="dev.ddanylenko.module8.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task6.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module7.task1.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module8.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module7.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module7.task3.Main" />
+    <configuration name="dev.ddanylenko.module8.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task7.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module7.task3.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module8.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dev.ddanylenko.module7.task3.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module7.task2.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module7.task1.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module6.task7.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module6.task6.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module8.task7.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module8.task6.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module8.task5.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module8.task4.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module8.task3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +198,8 @@
       <workItem from="1757834570549" duration="6976000" />
       <workItem from="1757920027154" duration="3797000" />
       <workItem from="1758032054942" duration="7685000" />
-      <workItem from="1758133270822" duration="2719000" />
+      <workItem from="1758133270822" duration="4242000" />
+      <workItem from="1758271033653" duration="8278000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -426,7 +433,71 @@
       <option name="project" value="LOCAL" />
       <updated>1758135553169</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="task3 WildCard">
+      <option name="closed" value="true" />
+      <created>1758136295365</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1758136295365</updated>
+    </task>
+    <task id="LOCAL-00031" summary="task1 basic lambda expression">
+      <option name="closed" value="true" />
+      <created>1758288590049</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1758288590049</updated>
+    </task>
+    <task id="LOCAL-00032" summary="task2 functional interface, lambda, method reference expression">
+      <option name="closed" value="true" />
+      <created>1758289828919</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758289828919</updated>
+    </task>
+    <task id="LOCAL-00033" summary="task3 functional interface with several params">
+      <option name="closed" value="true" />
+      <created>1758290383514</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758290383514</updated>
+    </task>
+    <task id="LOCAL-00034" summary="task4 lambda to measure time to complete task">
+      <option name="closed" value="true" />
+      <created>1758291167704</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758291167704</updated>
+    </task>
+    <task id="LOCAL-00035" summary="task4 lambda to measure time to complete task">
+      <option name="closed" value="true" />
+      <created>1758291195893</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758291195893</updated>
+    </task>
+    <task id="LOCAL-00036" summary="task5 method references">
+      <option name="closed" value="true" />
+      <created>1758292164508</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758292164508</updated>
+    </task>
+    <task id="LOCAL-00037" summary="task6 interfaces Predicate, Function, Consumer">
+      <option name="closed" value="true" />
+      <created>1758294043218</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294043218</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +514,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="collections" />
+                        <option value="lambda" />
                       </list>
                     </value>
                   </entry>
@@ -456,13 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task4 library composition" />
-    <MESSAGE value="task5 polymorphism of payment" />
-    <MESSAGE value="task6 abstract classes + polymorphism on employee" />
-    <MESSAGE value="task7 basic playable interface" />
-    <MESSAGE value="task8 interface with methods getSurfaceArea, getVolume" />
-    <MESSAGE value="task1 work with array, sorting, finding min/max, reverse" />
-    <MESSAGE value="task2 multidims" />
     <MESSAGE value="task3 varargs" />
     <MESSAGE value="task4 arrayList" />
     <MESSAGE value="task5 LinkedList" />
@@ -481,6 +545,13 @@
     <MESSAGE value="task7 FileVisitor/SimpleFileVisitor" />
     <MESSAGE value="task 1 basic Generics methods" />
     <MESSAGE value="task 2 Generics inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2 Generics inheritance" />
+    <MESSAGE value="task3 WildCard" />
+    <MESSAGE value="task1 basic lambda expression" />
+    <MESSAGE value="task2 functional interface, lambda, method reference expression" />
+    <MESSAGE value="task3 functional interface with several params" />
+    <MESSAGE value="task4 lambda to measure time to complete task" />
+    <MESSAGE value="task5 method references" />
+    <MESSAGE value="task6 interfaces Predicate, Function, Consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="task6 interfaces Predicate, Function, Consumer" />
   </component>
 </project>
