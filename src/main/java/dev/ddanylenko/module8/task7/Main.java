@@ -1,6 +1,7 @@
 package dev.ddanylenko.module8.task7;
 
 
+import dev.ddanylenko.module8.task1.Lists;
 import dev.ddanylenko.module8.task6.Person;
 
 import java.util.List;
@@ -13,7 +14,7 @@ public class Main {
         BinaryOperator<Double> max = Double::max;
         BinaryOperator<Double> min = Double::min;
 
-        List<Person> people = dev.ddanylenko.module8.task6.Main.getPersons();
+        List<Person> people = Lists.getPersons();
 
         Function<Person, Double> f = Person::getSalary;
         System.out.println("Total salary: " + combine(people, people.getFirst().getSalary(), f, sum));
