@@ -1,4 +1,4 @@
-package dev.ddanylenko.module8.task6;
+package dev.ddanylenko.module8.task1;
 
 import java.util.Objects;
 

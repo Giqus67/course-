@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task6 interfaces Predicate, Function, Consumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module8/task7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task9 parallel streams">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,13 @@
     "Application.dev.ddanylenko.module8.task5.Main.executor": "Run",
     "Application.dev.ddanylenko.module8.task6.Main.executor": "Run",
     "Application.dev.ddanylenko.module8.task7.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task2.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task3.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task4.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task5.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task6.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task8.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task9.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,13 +107,13 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module8.task7.Main">
-    <configuration name="dev.ddanylenko.module8.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task3.Main" />
+  <component name="RunManager" selected="Application.dev.ddanylenko.module9.task10.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task7.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module8.task3.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module9.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module8.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task4.Main" />
+    <configuration name="dev.ddanylenko.module9.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task10.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module8.task4.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module9.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module8.task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task5.Main" />
+    <configuration name="dev.ddanylenko.module9.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task6.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module8.task5.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module9.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module8.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task6.Main" />
+    <configuration name="dev.ddanylenko.module9.task8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task8.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module8.task6.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module9.task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module8.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task7.Main" />
+    <configuration name="dev.ddanylenko.module9.task9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task9.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module8.task7.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module9.task9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dev.ddanylenko.module8.task7.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module8.task6.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module8.task5.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module8.task4.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module8.task3.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module9.task10.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module9.task9.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module9.task8.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module9.task6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +207,7 @@
       <workItem from="1758032054942" duration="7685000" />
       <workItem from="1758133270822" duration="4242000" />
       <workItem from="1758271033653" duration="8278000" />
+      <workItem from="1758353765348" duration="4737000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -497,7 +505,79 @@
       <option name="project" value="LOCAL" />
       <updated>1758294043218</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="task1 basic stream">
+      <option name="closed" value="true" />
+      <created>1758355333948</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1758355333948</updated>
+    </task>
+    <task id="LOCAL-00039" summary="task2 stream with object">
+      <option name="closed" value="true" />
+      <created>1758355824531</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1758355824531</updated>
+    </task>
+    <task id="LOCAL-00040" summary="task3 modify stream">
+      <option name="closed" value="true" />
+      <created>1758356256360</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1758356256360</updated>
+    </task>
+    <task id="LOCAL-00041" summary="task4 flatmap">
+      <option name="closed" value="true" />
+      <created>1758356636618</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1758356636618</updated>
+    </task>
+    <task id="LOCAL-00042" summary="task5 distinct">
+      <option name="closed" value="true" />
+      <created>1758356851018</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1758356851018</updated>
+    </task>
+    <task id="LOCAL-00043" summary="task6 Group &amp; Partition by">
+      <option name="closed" value="true" />
+      <created>1758357206071</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1758357206071</updated>
+    </task>
+    <task id="LOCAL-00044" summary="task7 work with file stream">
+      <option name="closed" value="true" />
+      <created>1758357666894</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1758357666894</updated>
+    </task>
+    <task id="LOCAL-00045" summary="task8 Optional">
+      <option name="closed" value="true" />
+      <created>1758357819249</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1758357819249</updated>
+    </task>
+    <task id="LOCAL-00046" summary="task9 parallel streams">
+      <option name="closed" value="true" />
+      <created>1758358448211</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1758358448211</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +594,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lambda" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -527,15 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task3 varargs" />
-    <MESSAGE value="task4 arrayList" />
-    <MESSAGE value="task5 LinkedList" />
-    <MESSAGE value="task6 Collections sort, shuffle" />
-    <MESSAGE value="task7 Comparable" />
-    <MESSAGE value="task7 Comparable and Comparator" />
-    <MESSAGE value="task8 Stack" />
-    <MESSAGE value="task9 Queue, PriorityQueue, Deque" />
-    <MESSAGE value="task10 Set, TreeSet, HashSet" />
     <MESSAGE value="task1 FileReader/FileWriter/BufferReader" />
     <MESSAGE value="task2 try-with-resources, class file, Exception handling" />
     <MESSAGE value="task3 ObjectOutputStream/ObjectInputStream/Serializable" />
@@ -552,6 +623,15 @@
     <MESSAGE value="task4 lambda to measure time to complete task" />
     <MESSAGE value="task5 method references" />
     <MESSAGE value="task6 interfaces Predicate, Function, Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="task6 interfaces Predicate, Function, Consumer" />
+    <MESSAGE value="task1 basic stream" />
+    <MESSAGE value="task2 stream with object" />
+    <MESSAGE value="task3 modify stream" />
+    <MESSAGE value="task4 flatmap" />
+    <MESSAGE value="task5 distinct" />
+    <MESSAGE value="task6 Group &amp; Partition by" />
+    <MESSAGE value="task7 work with file stream" />
+    <MESSAGE value="task8 Optional" />
+    <MESSAGE value="task9 parallel streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="task9 parallel streams" />
   </component>
 </project>
