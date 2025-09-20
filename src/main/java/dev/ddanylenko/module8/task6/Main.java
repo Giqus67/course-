@@ -1,6 +1,7 @@
 package dev.ddanylenko.module8.task6;
 
 import dev.ddanylenko.module8.task1.Lists;
+import dev.ddanylenko.module8.task1.Person;
 
 import java.util.ArrayList;
 import java.util.List;

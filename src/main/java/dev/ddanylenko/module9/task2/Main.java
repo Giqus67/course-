@@ -1,11 +1,9 @@
 package dev.ddanylenko.module9.task2;
 
 import dev.ddanylenko.module8.task1.Lists;
-import dev.ddanylenko.module8.task6.Person;
+import dev.ddanylenko.module8.task1.Person;
 
 import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {

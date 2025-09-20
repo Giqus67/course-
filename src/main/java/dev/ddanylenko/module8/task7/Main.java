@@ -2,7 +2,7 @@ package dev.ddanylenko.module8.task7;
 
 
 import dev.ddanylenko.module8.task1.Lists;
-import dev.ddanylenko.module8.task6.Person;
+import dev.ddanylenko.module8.task1.Person;
 
 import java.util.List;
 import java.util.function.BinaryOperator;
