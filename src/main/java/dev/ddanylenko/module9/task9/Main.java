@@ -2,9 +2,7 @@ package dev.ddanylenko.module9.task9;
 
 import dev.ddanylenko.module8.task1.Lists;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {

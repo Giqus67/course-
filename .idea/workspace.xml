@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task8 Optional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task9 parallel streams">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module9.task9.Main">
+  <component name="RunManager" selected="Application.dev.ddanylenko.module9.task10.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task7.Main" />
       <module name="course" />
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module9.task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task5.Main" />
+    <configuration name="dev.ddanylenko.module9.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task10.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task5.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module9.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.module9.task10.Main" />
         <item itemvalue="Application.dev.ddanylenko.module9.task9.Main" />
         <item itemvalue="Application.dev.ddanylenko.module9.task8.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.dev.ddanylenko.module9.task6.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module9.task5.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,7 @@
       <workItem from="1758032054942" duration="7685000" />
       <workItem from="1758133270822" duration="4242000" />
       <workItem from="1758271033653" duration="8278000" />
-      <workItem from="1758353765348" duration="4436000" />
+      <workItem from="1758353765348" duration="4737000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -569,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758357819249</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="task9 parallel streams">
+      <option name="closed" value="true" />
+      <created>1758358448211</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1758358448211</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task10 Set, TreeSet, HashSet" />
     <MESSAGE value="task1 FileReader/FileWriter/BufferReader" />
     <MESSAGE value="task2 try-with-resources, class file, Exception handling" />
     <MESSAGE value="task3 ObjectOutputStream/ObjectInputStream/Serializable" />
@@ -624,6 +631,7 @@
     <MESSAGE value="task6 Group &amp; Partition by" />
     <MESSAGE value="task7 work with file stream" />
     <MESSAGE value="task8 Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="task8 Optional" />
+    <MESSAGE value="task9 parallel streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="task9 parallel streams" />
   </component>
 </project>
