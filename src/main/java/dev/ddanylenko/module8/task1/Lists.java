@@ -40,6 +40,15 @@ public class Lists {
         return persons;
     }
 
+    public static List<Person> getNotUniquePersons() {
+        List<Person> notUnique = getPersons();
+        notUnique.add(new Person("Kenny Donaldson", 66000, 25, "Manager"));
+        notUnique.add(new Person("Alan Branch", 50000, 20, "Manager"));
+        notUnique.add( new Person("Alan Branch", 50000, 20, "Manager"));
+        notUnique.add( new Person("Markus O'Reilly", 60000, 31, "IT"));
+        return notUnique;
+    }
+
     public static List<Person> getIT() {
         List<Person> it = new ArrayList<>(List.of(
                 new Person("Markus O'Reilly", 60000, 31, "IT"),

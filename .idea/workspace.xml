@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task3 modify stream">
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task4 flatmap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module8/task1/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module8/task1/Lists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,7 @@
     "Application.dev.ddanylenko.module8.task7.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task2.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task3.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task4.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -101,26 +103,13 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module9.task4.Main">
+  <component name="RunManager" selected="Application.dev.ddanylenko.module9.task5.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task1.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.ddanylenko.module9.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dev.ddanylenko.module8.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module8.task7.Main" />
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module8.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,13 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.ddanylenko.module9.task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task5.Main" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ddanylenko.module9.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.module9.task5.Main" />
         <item itemvalue="Application.dev.ddanylenko.module9.task4.Main" />
         <item itemvalue="Application.dev.ddanylenko.module9.task3.Main" />
         <item itemvalue="Application.dev.ddanylenko.module9.task2.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module8.task7.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +203,7 @@
       <workItem from="1758032054942" duration="7685000" />
       <workItem from="1758133270822" duration="4242000" />
       <workItem from="1758271033653" duration="8278000" />
-      <workItem from="1758353765348" duration="2479000" />
+      <workItem from="1758353765348" duration="2904000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -523,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758356256360</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="task4 flatmap">
+      <option name="closed" value="true" />
+      <created>1758356636618</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1758356636618</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task6 Collections sort, shuffle" />
     <MESSAGE value="task7 Comparable" />
     <MESSAGE value="task7 Comparable and Comparator" />
     <MESSAGE value="task8 Stack" />
@@ -578,6 +587,7 @@
     <MESSAGE value="task1 basic stream" />
     <MESSAGE value="task2 stream with object" />
     <MESSAGE value="task3 modify stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="task3 modify stream" />
+    <MESSAGE value="task4 flatmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4 flatmap" />
   </component>
 </project>
