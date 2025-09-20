@@ -39,4 +39,27 @@ public class Lists {
         ));
         return persons;
     }
+
+    public static List<Person> getIT() {
+        List<Person> it = new ArrayList<>(List.of(
+                new Person("Markus O'Reilly", 60000, 31, "IT"),
+                new Person("Alexandria Fowler", 120000, 50, "IT"),
+                new Person("Kate Humphrey", 55000, 21, "IT"),
+                new Person("Kurt Waters", 80000, 35, "IT"),
+                new Person("Tommy Flynn", 75000, 31, "IT"),
+                new Person("Katerina Olson", 80000, 26, "IT")
+                ));
+        return it;
+    }
+
+
+    public static List<Person> getManagers() {
+        List<Person> manager = new ArrayList<>(List.of(
+                new Person("Dillan Cherry", 115000, 55, "Manager>"),
+                new Person("Andrew Grant", 70000, 41, "Manager"),
+                new Person("Kenny Donaldson", 66000, 25, "Manager"),
+                new Person("Alan Branch", 50000, 20, "Manager")
+        ));
+        return manager;
+    }
 }
