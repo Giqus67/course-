@@ -2,8 +2,6 @@ package dev.ddanylenko.module10.task3;
 
 import java.util.stream.Stream;
 
-import static dev.ddanylenko.module10.task1.Colors.*;
-
 public class Main {
     private static int prev = 0;
     private static int cur = 1;
