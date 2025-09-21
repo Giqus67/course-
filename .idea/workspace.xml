@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task3 synchronized">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module10/task4/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task4 synchronized blocks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module10/task5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module10/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module10/task3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module8/task1/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module8/task1/Lists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
     "Application.dev.ddanylenko.module10.task1.Main.executor": "Run",
     "Application.dev.ddanylenko.module10.task2.Main.executor": "Run",
     "Application.dev.ddanylenko.module10.task4.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task5.Main.executor": "Run",
     "Application.dev.ddanylenko.module5.task10.Main.executor": "Run",
     "Application.dev.ddanylenko.module5.task11.Main.executor": "Run",
     "Application.dev.ddanylenko.module6.task2.Main.executor": "Run",
@@ -113,7 +112,7 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module10.task4.Main">
+  <component name="RunManager" selected="Application.dev.ddanylenko.module10.task5.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task3.Main" />
       <module name="course" />
@@ -166,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module9.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task10.Main" />
+    <configuration name="dev.ddanylenko.module10.task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task5.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task10.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module10.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.module10.task5.Main" />
         <item itemvalue="Application.dev.ddanylenko.module10.task4.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.dev.ddanylenko.module10.task2.Main" />
         <item itemvalue="Application.dev.ddanylenko.module10.task1.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module9.task10.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,15 +213,7 @@
       <workItem from="1758133270822" duration="4242000" />
       <workItem from="1758271033653" duration="8278000" />
       <workItem from="1758353765348" duration="6254000" />
-      <workItem from="1758443804485" duration="5599000" />
-    </task>
-    <task id="LOCAL-00002" summary="added basic inherit classes">
-      <option name="closed" value="true" />
-      <created>1757514824910</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1757514824910</updated>
+      <workItem from="1758443804485" duration="7604000" />
     </task>
     <task id="LOCAL-00003" summary="completed task2, to find square of shapes">
       <option name="closed" value="true" />
@@ -608,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758448348429</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="task4 synchronized blocks">
+      <option name="closed" value="true" />
+      <created>1758449505600</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1758449505600</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task5 Java NIO" />
     <MESSAGE value="task6 channel" />
     <MESSAGE value="task7 FileVisitor/SimpleFileVisitor" />
     <MESSAGE value="task 1 basic Generics methods" />
@@ -663,6 +661,7 @@
     <MESSAGE value="task 1 basic threads. Classes extends Thread, and implements Runnable, lambda and main thread." />
     <MESSAGE value="task2 volatile" />
     <MESSAGE value="task3 synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="task3 synchronized" />
+    <MESSAGE value="task4 synchronized blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4 synchronized blocks" />
   </component>
 </project>
