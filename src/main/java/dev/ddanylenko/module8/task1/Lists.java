@@ -19,6 +19,14 @@ public class Lists {
         return list;
     }
 
+    public static int[] getArray(int n) {
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = (int) ((Math.random() * 100));
+        }
+        return array;
+    }
+
     public static String[] getStrings() {
         return new String[]{"Homer Simpson", "is a character", "in the animated television", "series The Simpsons.", "He is the boorish", "father of the Simpson family; with"};
     }
@@ -71,4 +79,6 @@ public class Lists {
         ));
         return manager;
     }
+
+
 }

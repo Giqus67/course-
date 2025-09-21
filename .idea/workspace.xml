@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task9 parallel streams">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module9/task9/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task9 Producer/Consumer with ReentrantLock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module10/task10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="streams" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +61,14 @@
     "Application.Payment.executor": "Run",
     "Application.Shape.executor": "Run",
     "Application.Stacked.executor": "Run",
+    "Application.dev.ddanylenko.module10.task1.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task10.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task2.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task4.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task5.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task6.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task7.Main.executor": "Run",
+    "Application.dev.ddanylenko.module10.task8.Main.executor": "Run",
     "Application.dev.ddanylenko.module5.task10.Main.executor": "Run",
     "Application.dev.ddanylenko.module5.task11.Main.executor": "Run",
     "Application.dev.ddanylenko.module6.task2.Main.executor": "Run",
@@ -77,6 +85,7 @@
     "Application.dev.ddanylenko.module8.task5.Main.executor": "Run",
     "Application.dev.ddanylenko.module8.task6.Main.executor": "Run",
     "Application.dev.ddanylenko.module8.task7.Main.executor": "Run",
+    "Application.dev.ddanylenko.module9.task10.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task2.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task3.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task4.Main.executor": "Run",
@@ -107,13 +116,13 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module9.task10.Main">
+  <component name="RunManager" selected="Application.dev.ddanylenko.module10.task10.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task7.Main" />
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task9.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task7.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module10.task9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module9.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task10.Main" />
+    <configuration name="dev.ddanylenko.module10.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task10.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task10.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module10.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module9.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task6.Main" />
+    <configuration name="dev.ddanylenko.module10.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task6.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task6.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module10.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module9.task8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task8.Main" />
+    <configuration name="dev.ddanylenko.module10.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task7.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task8.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module10.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module9.task9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module9.task9.Main" />
+    <configuration name="dev.ddanylenko.module10.task8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task8.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module9.task9.*" />
+          <option name="PATTERN" value="dev.ddanylenko.module10.task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dev.ddanylenko.module9.task10.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module9.task9.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module9.task8.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module10.task10.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module9.task6.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module10.task8.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module10.task7.Main" />
+        <item itemvalue="Application.dev.ddanylenko.module10.task6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -207,63 +216,8 @@
       <workItem from="1758032054942" duration="7685000" />
       <workItem from="1758133270822" duration="4242000" />
       <workItem from="1758271033653" duration="8278000" />
-      <workItem from="1758353765348" duration="4737000" />
-    </task>
-    <task id="LOCAL-00001" summary="init commit">
-      <option name="closed" value="true" />
-      <created>1757513947527</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1757513947527</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added basic inherit classes">
-      <option name="closed" value="true" />
-      <created>1757514824910</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1757514824910</updated>
-    </task>
-    <task id="LOCAL-00003" summary="completed task2, to find square of shapes">
-      <option name="closed" value="true" />
-      <created>1757515561758</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1757515561758</updated>
-    </task>
-    <task id="LOCAL-00004" summary="task3 composition">
-      <option name="closed" value="true" />
-      <created>1757516495447</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1757516495447</updated>
-    </task>
-    <task id="LOCAL-00005" summary="task4 library composition">
-      <option name="closed" value="true" />
-      <created>1757517446219</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1757517446219</updated>
-    </task>
-    <task id="LOCAL-00006" summary="task5 polymorphism of payment">
-      <option name="closed" value="true" />
-      <created>1757517872573</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1757517872573</updated>
-    </task>
-    <task id="LOCAL-00007" summary="task6 abstract classes + polymorphism on employee">
-      <option name="closed" value="true" />
-      <created>1757519086103</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1757519086103</updated>
+      <workItem from="1758353765348" duration="6254000" />
+      <workItem from="1758443804485" duration="12694000" />
     </task>
     <task id="LOCAL-00008" summary="task7 basic playable interface">
       <option name="closed" value="true" />
@@ -577,7 +531,87 @@
       <option name="project" value="LOCAL" />
       <updated>1758358448211</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="task10 iterate/generate">
+      <option name="closed" value="true" />
+      <created>1758358771918</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1758358771918</updated>
+    </task>
+    <task id="LOCAL-00048" summary="task 1 basic threads. Classes extends Thread, and implements Runnable, lambda and main thread.">
+      <option name="closed" value="true" />
+      <created>1758446726147</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1758446726147</updated>
+    </task>
+    <task id="LOCAL-00049" summary="task2 volatile">
+      <option name="closed" value="true" />
+      <created>1758447950447</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1758447950447</updated>
+    </task>
+    <task id="LOCAL-00050" summary="task3 synchronized">
+      <option name="closed" value="true" />
+      <created>1758448348428</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1758448348429</updated>
+    </task>
+    <task id="LOCAL-00051" summary="task4 synchronized blocks">
+      <option name="closed" value="true" />
+      <created>1758449505600</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1758449505600</updated>
+    </task>
+    <task id="LOCAL-00052" summary="task5 ExecutorService">
+      <option name="closed" value="true" />
+      <created>1758470346891</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1758470346891</updated>
+    </task>
+    <task id="LOCAL-00053" summary="task6 daemon thread">
+      <option name="closed" value="true" />
+      <created>1758470982232</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1758470982232</updated>
+    </task>
+    <task id="LOCAL-00054" summary="task7 Producer/Consumer pattern with BlockingQueue">
+      <option name="closed" value="true" />
+      <created>1758474881422</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1758474881422</updated>
+    </task>
+    <task id="LOCAL-00055" summary="task8 Producer/Consumer with Object method wait(), notify()">
+      <option name="closed" value="true" />
+      <created>1758476017848</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1758476017848</updated>
+    </task>
+    <task id="LOCAL-00056" summary="task9 Producer/Consumer with ReentrantLock">
+      <option name="closed" value="true" />
+      <created>1758476831879</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1758476831879</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,16 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task1 FileReader/FileWriter/BufferReader" />
-    <MESSAGE value="task2 try-with-resources, class file, Exception handling" />
-    <MESSAGE value="task3 ObjectOutputStream/ObjectInputStream/Serializable" />
-    <MESSAGE value="task4 Java IO" />
-    <MESSAGE value="task5 Java NIO" />
-    <MESSAGE value="task6 channel" />
-    <MESSAGE value="task7 FileVisitor/SimpleFileVisitor" />
-    <MESSAGE value="task 1 basic Generics methods" />
-    <MESSAGE value="task 2 Generics inheritance" />
-    <MESSAGE value="task3 WildCard" />
     <MESSAGE value="task1 basic lambda expression" />
     <MESSAGE value="task2 functional interface, lambda, method reference expression" />
     <MESSAGE value="task3 functional interface with several params" />
@@ -632,6 +656,16 @@
     <MESSAGE value="task7 work with file stream" />
     <MESSAGE value="task8 Optional" />
     <MESSAGE value="task9 parallel streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="task9 parallel streams" />
+    <MESSAGE value="task10 iterate/generate" />
+    <MESSAGE value="task 1 basic threads. Classes extends Thread, and implements Runnable, lambda and main thread." />
+    <MESSAGE value="task2 volatile" />
+    <MESSAGE value="task3 synchronized" />
+    <MESSAGE value="task4 synchronized blocks" />
+    <MESSAGE value="task5 ExecutorService" />
+    <MESSAGE value="task6 daemon thread" />
+    <MESSAGE value="task7 Producer/Consumer pattern with BlockingQueue" />
+    <MESSAGE value="task8 Producer/Consumer with Object method wait(), notify()" />
+    <MESSAGE value="task9 Producer/Consumer with ReentrantLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="task9 Producer/Consumer with ReentrantLock" />
   </component>
 </project>
