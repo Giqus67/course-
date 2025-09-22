@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task9 Producer/Consumer with ReentrantLock">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/module10/task10/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task10 Semaphore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task1/BasicJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="streams" />
+        <entry key="$PROJECT_DIR$" value="multithread" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +47,7 @@
     "Application.Animal.executor": "Run",
     "Application.Array.executor": "Run",
     "Application.Bank.executor": "Run",
+    "Application.BasicJava.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.Comp.executor": "Run",
     "Application.Employee.executor": "Run",
@@ -116,7 +117,20 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.module10.task10.Main">
+  <component name="RunManager" selected="Application.BasicJava">
+    <configuration name="BasicJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task1.BasicJava" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ddanylenko.review.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task9.Main" />
       <module name="course" />
@@ -136,19 +150,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.ddanylenko.module10.task10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dev.ddanylenko.module10.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task6.Main" />
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module10.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicJava" />
         <item itemvalue="Application.dev.ddanylenko.module10.task10.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.dev.ddanylenko.module10.task8.Main" />
         <item itemvalue="Application.dev.ddanylenko.module10.task7.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module10.task6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,15 +218,8 @@
       <workItem from="1758133270822" duration="4242000" />
       <workItem from="1758271033653" duration="8278000" />
       <workItem from="1758353765348" duration="6254000" />
-      <workItem from="1758443804485" duration="12694000" />
-    </task>
-    <task id="LOCAL-00008" summary="task7 basic playable interface">
-      <option name="closed" value="true" />
-      <created>1757519455954</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1757519455954</updated>
+      <workItem from="1758443804485" duration="12910000" />
+      <workItem from="1758555468134" duration="2286000" />
     </task>
     <task id="LOCAL-00009" summary="task8 interface with methods getSurfaceArea, getVolume">
       <option name="closed" value="true" />
@@ -611,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758476831879</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="task10 Semaphore">
+      <option name="closed" value="true" />
+      <created>1758477751172</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1758477751172</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +630,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="review" />
                       </list>
                     </value>
                   </entry>
@@ -641,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task1 basic lambda expression" />
     <MESSAGE value="task2 functional interface, lambda, method reference expression" />
     <MESSAGE value="task3 functional interface with several params" />
     <MESSAGE value="task4 lambda to measure time to complete task" />
@@ -666,6 +667,7 @@
     <MESSAGE value="task7 Producer/Consumer pattern with BlockingQueue" />
     <MESSAGE value="task8 Producer/Consumer with Object method wait(), notify()" />
     <MESSAGE value="task9 Producer/Consumer with ReentrantLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="task9 Producer/Consumer with ReentrantLock" />
+    <MESSAGE value="task10 Semaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="task10 Semaphore" />
   </component>
 </project>
