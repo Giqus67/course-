@@ -75,9 +75,9 @@ public class BasicJava {
         System.out.println("Array: " + Arrays.toString(array));
         double sum = 0;
         double multiply = 1;
-        for (int i = 0; i < array.length; i++) {
-            sum += array[i];
-            multiply *= array[i];
+        for (int j : array) {
+            sum += j;
+            multiply *= j;
         }
         System.out.println("Sum of array: " + sum);
         System.out.println("Multiply of array: " + multiply);

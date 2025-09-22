@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task10 Semaphore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task1/BasicJava.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task1 JavaBasic">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task2/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task2/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task2/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task2/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task2/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task1/BasicJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task1/BasicJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +100,7 @@
     "Application.dev.ddanylenko.module9.task6.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task8.Main.executor": "Run",
     "Application.dev.ddanylenko.module9.task9.Main.executor": "Run",
+    "Application.dev.ddanylenko.review.task2.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -117,7 +124,7 @@
       <recent name="D:\study\course\temp\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicJava">
+  <component name="RunManager" selected="Application.dev.ddanylenko.review.task2.Main">
     <configuration name="BasicJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task1.BasicJava" />
       <module name="course" />
@@ -157,19 +164,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module10.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task7.Main" />
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module10.task7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="dev.ddanylenko.module10.task8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task8.Main" />
       <module name="course" />
@@ -183,13 +177,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.ddanylenko.review.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task2.Main" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ddanylenko.review.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.review.task2.Main" />
         <item itemvalue="Application.BasicJava" />
         <item itemvalue="Application.dev.ddanylenko.module10.task10.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.dev.ddanylenko.module10.task8.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module10.task7.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -219,15 +226,7 @@
       <workItem from="1758271033653" duration="8278000" />
       <workItem from="1758353765348" duration="6254000" />
       <workItem from="1758443804485" duration="12910000" />
-      <workItem from="1758555468134" duration="2286000" />
-    </task>
-    <task id="LOCAL-00009" summary="task8 interface with methods getSurfaceArea, getVolume">
-      <option name="closed" value="true" />
-      <created>1757520391877</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1757520391877</updated>
+      <workItem from="1758555468134" duration="4145000" />
     </task>
     <task id="LOCAL-00010" summary="task1 work with array, sorting, finding min/max, reverse">
       <option name="closed" value="true" />
@@ -613,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758477751172</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="task1 JavaBasic">
+      <option name="closed" value="true" />
+      <created>1758557790223</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1758557790224</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task2 functional interface, lambda, method reference expression" />
     <MESSAGE value="task3 functional interface with several params" />
     <MESSAGE value="task4 lambda to measure time to complete task" />
     <MESSAGE value="task5 method references" />
@@ -668,6 +674,7 @@
     <MESSAGE value="task8 Producer/Consumer with Object method wait(), notify()" />
     <MESSAGE value="task9 Producer/Consumer with ReentrantLock" />
     <MESSAGE value="task10 Semaphore" />
-    <option name="LAST_COMMIT_MESSAGE" value="task10 Semaphore" />
+    <MESSAGE value="task1 JavaBasic" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1 JavaBasic" />
   </component>
 </project>
