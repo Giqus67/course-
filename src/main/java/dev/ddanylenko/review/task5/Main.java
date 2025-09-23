@@ -20,7 +20,6 @@ public class Main {
         System.out.println("List of string: " +strings);
         WorkWithCollections.sortByLength(strings);
         System.out.println("List sorted by length = " +strings);
-
         WorkWithCollections.findMostFrequent("The 2025 Ballon d'Or was the 69th annual ceremony of the Ballon d'Or, presented by France Football, " +
                 "recognising the best footballers in the world in the 2024–25 season. For the fourth time in the history of the award, it was awarded based on " +
                 "the results of the season instead of the calendar year. This was the period from 1 August 2024 to 13 July 2025 " +
