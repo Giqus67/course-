@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task3 methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task4/square.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task4 Basic OOP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task5/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task5/WorkWithCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +98,7 @@
     "Application.dev.ddanylenko.module9.task9.Main.executor": "Run",
     "Application.dev.ddanylenko.review.task2.Main.executor": "Run",
     "Application.dev.ddanylenko.review.task3.Main.executor": "Run",
+    "Application.dev.ddanylenko.review.task4.Main.executor": "Run",
     "Application.varArgs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -132,7 +127,7 @@
       <command value="BasicJava" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.review.task4.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BasicJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task1.BasicJava" />
       <module name="course" />
@@ -146,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.ddanylenko.module10.task10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.module10.task10.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task5.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.module10.task10.*" />
+          <option name="PATTERN" value="dev.ddanylenko.review.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.dev.ddanylenko.review.task4.Main" />
         <item itemvalue="Application.dev.ddanylenko.review.task3.Main" />
         <item itemvalue="Application.BasicJava" />
         <item itemvalue="Application.dev.ddanylenko.review.task2.Main" />
-        <item itemvalue="Application.dev.ddanylenko.module10.task10.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -235,15 +230,7 @@
       <workItem from="1758353765348" duration="6254000" />
       <workItem from="1758443804485" duration="12910000" />
       <workItem from="1758555468134" duration="4805000" />
-      <workItem from="1758612782262" duration="3983000" />
-    </task>
-    <task id="LOCAL-00012" summary="task3 varargs">
-      <option name="closed" value="true" />
-      <created>1757690340048</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1757690340048</updated>
+      <workItem from="1758612782262" duration="5728000" />
     </task>
     <task id="LOCAL-00013" summary="task4 arrayList">
       <option name="closed" value="true" />
@@ -629,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758616328521</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="task4 Basic OOP">
+      <option name="closed" value="true" />
+      <created>1758617427644</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1758617427644</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +654,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task5 method references" />
     <MESSAGE value="task6 interfaces Predicate, Function, Consumer" />
     <MESSAGE value="task1 basic stream" />
     <MESSAGE value="task2 stream with object" />
@@ -684,7 +678,8 @@
     <MESSAGE value="task1 JavaBasic" />
     <MESSAGE value="task2 basic loops and recursive" />
     <MESSAGE value="task3 methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="task3 methods" />
+    <MESSAGE value="task4 Basic OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4 Basic OOP" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
