@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task7 work with strings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task8/FileWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task8/Main.java" afterDir="false" />
+    <list default="true" id="1e8b0d6a-ba70-4e06-bc42-ff955d6fdc52" name="Changes" comment="task8 work with java.IO/NIO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task9/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ddanylenko/review/task9/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,26 +130,13 @@
       <command value="BasicJava" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.dev.ddanylenko.review.task8.Main">
+  <component name="RunManager" selected="Application.dev.ddanylenko.review.task9.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task5.Main" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.ddanylenko.review.task5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dev.ddanylenko.review.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task4.Main" />
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ddanylenko.review.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,13 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.ddanylenko.review.task9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ddanylenko.review.task9.Main" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ddanylenko.review.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.ddanylenko.review.task9.Main" />
         <item itemvalue="Application.dev.ddanylenko.review.task8.Main" />
         <item itemvalue="Application.dev.ddanylenko.review.task7.Main" />
         <item itemvalue="Application.dev.ddanylenko.review.task6.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.dev.ddanylenko.review.task4.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -233,15 +234,7 @@
       <workItem from="1758443804485" duration="12910000" />
       <workItem from="1758555468134" duration="4805000" />
       <workItem from="1758612782262" duration="10537000" />
-      <workItem from="1758704177952" duration="2029000" />
-    </task>
-    <task id="LOCAL-00016" summary="task7 Comparable">
-      <option name="closed" value="true" />
-      <created>1757697974620</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1757697974620</updated>
+      <workItem from="1758704177952" duration="2736000" />
     </task>
     <task id="LOCAL-00017" summary="task7 Comparable and Comparator">
       <option name="closed" value="true" />
@@ -627,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758622088694</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="task8 work with java.IO/NIO">
+      <option name="closed" value="true" />
+      <created>1758706563720</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1758706563721</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task3 modify stream" />
     <MESSAGE value="task4 flatmap" />
     <MESSAGE value="task5 distinct" />
     <MESSAGE value="task6 Group &amp; Partition by" />
@@ -682,7 +682,8 @@
     <MESSAGE value="task5 Collections" />
     <MESSAGE value="task6 Exceptions" />
     <MESSAGE value="task7 work with strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="task7 work with strings" />
+    <MESSAGE value="task8 work with java.IO/NIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="task8 work with java.IO/NIO" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
